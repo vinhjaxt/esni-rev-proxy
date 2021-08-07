@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 goVersion=$(go version| grep -Eo 'go[0-9]+\.[0-9]+')
 goRoot=$(go env GOROOT)
 goHostOS=$(go env GOHOSTOS)
